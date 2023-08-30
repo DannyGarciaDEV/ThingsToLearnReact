@@ -12,8 +12,8 @@ const Home = () => {
         <div className="home">
             <h2> Who is Coding </h2>
             <p> {name} is {age} </p>
-            <button onclick={handleClick}> Click Me</button>
+            <button onClick={handleClick}> Click Me</button>
         </div>
-    )
-}
+    );
+};
 export default Home;
