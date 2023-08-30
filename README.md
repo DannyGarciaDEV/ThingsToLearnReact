@@ -1,4 +1,6 @@
-# ThingsToLearnReact
+
+## Before using React
+<p> If we can to use react, we need to installed it from the terminal, you need to have npx and node.js installed already </p>
 ## Components
 <h2>What are React Components?</h2>
 <p> React components is reausable building blocks that encapsulates the User Interface elements and logic. They allow you to create modular cell container parts of your interface. </p>
@@ -23,7 +25,7 @@ function counter() {
 }
 ```
 
-> To Uodate the state, you call the update function React will re-render the component with the next state.
+> To Update the state, you call the update function React will re-render the component with the next state.
 
 ```js
  function increment() {
