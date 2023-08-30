@@ -1,6 +1,21 @@
 
 ## Before using React
 <p> If we can to use react, we need to installed it from the terminal, you need to have npx and node.js installed already </p>
+```
+npx create-react-app my-react-app
+```
+
+> create-react-app: This is a command-line tool used to set up new React applications. It automates the process of setting up build configurations, development server, and other necessary files for a React project.
+
+> my-react-app: This is the name you're giving to your new React application. You can replace "my-react-app" with whatever name you want for your project.
+```
+cd my-react-app
+```
+>npm start: This script starts the development server. It allows you to preview your application in a web browser and automatically reloads the page when you make changes to your code.
+
+>npm test: This script runs any test suites you have defined in your project. By default, Create React App uses Jest as the testing framework.
+
+>npm run build: This script creates a production-ready build of your application. It bundles and minifies your code for better performance and prepares it for deployment
 ## Components
 <h2>What are React Components?</h2>
 <p> React components is reausable building blocks that encapsulates the User Interface elements and logic. They allow you to create modular cell container parts of your interface. </p>
