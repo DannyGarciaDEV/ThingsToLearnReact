@@ -1,6 +1,6 @@
 
 ## Before using React
-<p> If we can to use react, we need to installed it from the terminal, you need to have npx and node.js installed already </p>
+<p> If we want to use react, we need to installed it from the terminal, you need to have npx and node.js installed already </p>
 
 
 ```
