@@ -12,7 +12,7 @@ function reducer(state, action){
             case ACTIONS.DECREMENT:
                 return {count: decrement -1 }
                 default: 
-                return statr
+                return state
     }
 
 }
