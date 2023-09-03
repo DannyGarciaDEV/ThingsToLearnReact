@@ -26,6 +26,9 @@ cd my-react-app
 <h2> What are Hooks in React? </h2>
 <p> Hooks in React are functions that allow functional components to manage state, lifecycle events, and side effects, eliminating the need for class components. Hooks like useState and useEffect are fundamental, enabling developers to efficiently handle component-specific data and interactions. </p>
 
+<h2>useReducer Hook</h2>
+<p> allows you to manage state in a component by specifying how state changes should occur based on dispatched actions, providing a more controlled and predictable way to handle complex state logic compared to useState. It is often used when you need to manage state involving multiple variables or when state transitions depend on previous state values. </p>
+
 <h2> UseState Hook </h2>
 <p> The useState hook is fundamental feature in React Funtional components that allows you yo add and manage the state in you application. It provides a way yo store and update data that can change overtime, causing components to re-render and reflect those changes in the user interface </p>
 
