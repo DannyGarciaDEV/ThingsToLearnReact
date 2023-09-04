@@ -63,3 +63,37 @@ export default counter;
 
 ```
 >By using the "useState" hook, you can easily add and manage state within functional components without needing to switch to class components. This helps make your code more modular and easier to understand.
+
+
+<h2> Fetching Data </h2>
+<p> In React, fetching data means getting information from somewhere else, like a website or a database. You use special tools to do this, and once you have the data, you can show it on your website so people can see it. By This is commonly done using techniques such as the fetch API or libraries like Axios within React components.</p>
+
+```js
+import React, { useState, useEffect } from 'react';
+
+function usingFetch() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.example.com/data')
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  }, []);
+
+  return (
+    <div>
+      {data ? (
+        <ul>
+          {data.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+      ) : (
+        <p>Loading...</p>
+      )}
+    </div>
+  );
+}
+
+export default usingFetch;
+```
