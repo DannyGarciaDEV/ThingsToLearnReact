@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './App.css';
+
 
 function GitHubUser({ name, location, avatar, blog, followers, following, twitter, company, user, updated}) {
   return (
