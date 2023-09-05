@@ -68,6 +68,7 @@ export default counter;
 <h2> Fetching Data </h2>
 <p> In React, fetching data means getting information from somewhere else, like a website or a database. You use special tools to do this, and once you have the data, you can show it on your website so people can see it. By This is commonly done using techniques such as the fetch API or libraries like Axios within React components.</p>
 
+
 ```js
 import React, { useState, useEffect } from 'react';
 
@@ -97,3 +98,36 @@ function usingFetch() {
 
 export default usingFetch;
 ```
+> Using Fetch API 
+
+```js
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+function usingAxios() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios.get('https://api.example.com/data')
+      .then((response) => setData(response.data));
+  }, []);
+
+  return (
+    <div>
+      <ul>
+        {data.map((item) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default UsingAxios;
+```
+> Using Axios 
+
+<h2> What's the difference between Fetch and Axios </h2>
+<p>Fetch is like using a basic tool to send a letter by mail. You have to write the letter (set up the request), put it in an envelope (configure headers and options), address it properly (specify the URL), and then drop it in the mailbox (send the request). You also have to wait for the reply, and if something goes wrong with the delivery, you need to handle it manually. </p>
+
+<p>Axios, on the other hand, is like having a reliable courier service. You simply give them the letter (make a request) and tell them where it should go (provide the URL). The courier takes care of all the details, from packing the letter correctly (setting headers and options) to ensuring it reaches its destination and handling any delivery issues. You just wait for the courier to bring you the reply. In the world of web development, Axios acts like that dependable courier service, making data exchange between your app and external sources smoother and more efficient. </p>
