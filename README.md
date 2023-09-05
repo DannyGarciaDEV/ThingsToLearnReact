@@ -135,43 +135,43 @@ export default UsingAxios;
 <h2> Design Patterns in React </h2>
 <p> Design patterns are reusable solutions to basic problems in software development, like in React, bein a very popular Javascript library for creating user interfaces and improving code organizations this are the most commont design patterns in React </p>
 
-<ol> Component-Based Architecture: </ol>
+**<ol> Component-Based Architecture: </ol>**
 
 React is inherently component-based, which means you create reusable UI components. This pattern encourages breaking your UI into smaller, self-contained pieces, making it easier to manage and maintain your application.
 
-<ol>Container and Presentational Components:</ol>
+**<ol>Container and Presentational Components:</ol>**
 
 This pattern separates components into two categories: containers (smart components) and presentational (dumb) components. Containers handle data and logic while presentational components focus on rendering UI elements. This separation improves code clarity and reusability.
 
-<ol>Higher-Order Components (HOCs):</ol>
+**<ol>Higher-Order Components (HOCs):</ol>**
 
 HOCs are functions that accept a component as an argument and return a new, enhanced component. They're used for cross-cutting concerns like authentication, data fetching, and state management.
 
-<ol>Render Props:</ol>
+**<ol>Render Props:</ol>**
 
 The Render Props pattern involves passing a function as a prop to a component, allowing it to share code or data with its children. It's used for creating flexible and reusable components.
 
-<ol>State Management Patterns:</ol>
+**<ol>State Management Patterns:</ol>**
 
 React's built-in useState and useReducer hooks provide patterns for managing component state. Libraries like Redux and MobX offer additional state management patterns for larger applications.
 
-<ol>Context API:</ol>
+**<ol>Context API:</ol>**
 
 React's Context API allows you to share data between components without prop drilling. It's helpful for managing global state or providing themes and settings across the app.
 
-<ol>Component Lifecycle Methods:</ol>
+**<ol>Component Lifecycle Methods:</ol>**
 
 Understanding the component lifecycle methods (e.g., componentDidMount, componentDidUpdate, and componentWillUnmount) helps you manage side effects and interactions with external services.
 
-<ol>Error Boundaries:</ol>
+**<ol>Error Boundaries:</ol>**
 
 Error boundaries are components that catch errors in their child components and display fallback UI to prevent the entire app from crashing. This pattern enhances app robustness.
 
-<ol>Router Patterns:</ol>
+**<ol>Router Patterns:</ol>**
 
 React Router is a library that offers patterns for handling client-side routing in single-page applications (SPAs). It allows you to create routes and navigate between views efficiently.
 
-<ol>Lazy Loading: </ol>
+**<ol>Lazy Loading: </ol>**
 
 Lazy loading involves loading components only when they are needed, which improves initial page load times. React provides React.lazy()
 
